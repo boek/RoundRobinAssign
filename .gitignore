@@ -1,0 +1,27 @@
+
+# Created by https://www.gitignore.io/api/fsharp,dotnetcore
+# Edit at https://www.gitignore.io/?templates=fsharp,dotnetcore
+
+### DotnetCore ###
+# .NET Core build folders
+/bin
+/obj
+.ionide
+# Common node modules locations
+/node_modules
+/wwwroot/node_modules
+
+
+### fsharp ###
+lib/debug
+lib/release
+Debug
+*.suo
+*.user
+obj
+bin
+/build/
+*.exe
+!.paket/paket.bootstrapper.exe
+
+# End of https://www.gitignore.io/api/fsharp,dotnetcore
