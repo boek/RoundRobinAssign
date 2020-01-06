@@ -1,0 +1,15 @@
+name: 'Round Robin Assign'
+description: 'Assign team members to issues by label'
+inputs:
+  repoToken:
+    description: 'Token to access repo'
+    required: true
+  groupToAssign:
+    description: 'Name of the team to round robin'
+    required: true
+  labelToAssign:
+    description: 'Label used to filter the issue list'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
